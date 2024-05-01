@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Noto+Sans+JP:wght@100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+body {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: "Roboto", sans-serif;
+}
+
+img {
+    max-width: 100%;
+}
+
+header nav {
+    display: flex;
+    gap: 4rem;
+    padding: 2rem;
+}
+
+nav p {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+header button {
+    background: none;
+    border: none;
+    font-weight: 600;
+    font-size: 1rem;
+    color: #6e6e6e;
+    cursor: pointer;
+}
+
+header button:hover {
+    color: #262626;
+}
+
+h1 {
+    font-size: 4rem;
+    max-width: 22ch;
+
+    line-height: 3.75rem;
+}
+
+#content {
+    flex: 1 1 auto;
+    /* background-color: rgb(189, 189, 189); */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+
+    padding: 2rem;
+}
+
+#content p {
+    font-size: 1.5rem;
+    max-width: 50ch;
+}
+
+#content img {
+    width: 40vw;
+    border-radius: 15px;
+    box-shadow: 1px 5px 15px rgba(0, 0, 0, 0.3);
+}
